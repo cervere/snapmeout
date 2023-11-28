@@ -1,0 +1,51 @@
+.circle-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .circle-list-item {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: move;
+  /* border-bottom: 1px solid #f2f2f2; */
+  font-size: 16px;
+  color: #333;
+}
+  
+  .circle-red {
+    background-color: #ff6565;
+    border-color: #e64c4c;
+    color: white;
+  }
+  
+  .circle-orange {
+    background-color: #ffb347;
+    border-color: #e69500;
+    color: white;
+  }
+  
+  .circle-yellow {
+    background-color: #ffeead;
+    border-color: #e6cc00;
+    color: #333;
+  }
+
+  .circle-text {
+    word-wrap: break-word;
+  }

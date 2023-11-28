@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* .container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 400px; */
+    /* padding-bottom: 50px; */
+    /* position: 'relative'; */
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh;   */
+/*} */
+  
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type='text'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 16px;
+    color: #333;
+  }
+
+  nav {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  .stage {
+    /* background-color: grey; */
+    height: 90%;
+    width: 95%;
+  }
+  /* CSS for the NavLink */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  /* CSS for the active NavLink */
+.nav-link.active {
+    color: #ffd700;
+  }
+  
+
+/* CSS for the icon */
+.nav-link i {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  /* Media queries for smaller screen sizes */
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
