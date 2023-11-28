@@ -1,8 +1,8 @@
 {
-  "name": "just-note-client",
+  "name": "snapmeout",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://snapmeout.github.io/",
+  "homepage": "https://cervere.github.io/snapmeout/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
